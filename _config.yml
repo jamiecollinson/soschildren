@@ -1,0 +1,4 @@
+name: Your New Jekyll Site
+permalink: /blog/:title
+
+exclude: ['bower_components', 'node_modules', '*.less', 'gulpfile.js', 'package.json']

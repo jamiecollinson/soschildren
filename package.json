@@ -1,0 +1,21 @@
+{
+  "name": "soschildren",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp-jekyll": "0.0.0",
+    "gulp": "~3.5.2",
+    "gulp-less": "~1.2.1",
+    "gulp-serve": "~0.1.1",
+    "gulp-autoprefixer": "0.0.6",
+    "gulp-livereload": "~1.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD"
+}

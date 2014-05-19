@@ -1,0 +1,54 @@
+@default-margin: 10px;
+
+nav.top-nav {
+  .container {
+    position: relative;
+    .row {
+      position: absolute;
+      width: 100%;
+      input {
+        position: absolute;
+        width: 33%;
+        top: 17px;
+        right: 15px;
+      }
+    }
+  }
+}
+
+.home-banner {
+  background-image: url('http://1.bp.blogspot.com/-BOrpGUjmsn0/TZCRyyZQf7I/AAAAAAAAAMU/SG5JKQP7bsY/s1600/tpa-picture-40496-JL.JPG');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  .darker {
+    background-color: rgba(0,0,0,0.4);
+    padding: 110px 0 50px 0;
+    height: 100%;
+    .hero {
+      color: #fff;
+      text-shadow: 0 0 20px #000;
+    }
+  }
+}
+
+.home-strapline {
+  margin: @default-margin*2 0 @default-margin*2 0;
+  text-align: center;
+}
+
+.home.main {
+  .panel-body > img {
+    width: 100%;
+  }
+  .panel:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+}
+
+.footer {
+  margin-top: @default-margin*5;
+  height: 100px;
+  background-color: #303030;
+  color: @body-bg;
+}
